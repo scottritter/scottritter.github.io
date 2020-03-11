@@ -1,0 +1,14 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    Factiva- DC circuit assualt weapons.pdf
+#	modified:   index.html
+#
+# Untracked files:
+#	US Appeals Court Rejects Challenge to Assault-Weapon Ban.pdf
+#
+
