@@ -46,6 +46,12 @@ section:nth-last-of-type(n+2) {
 }
 
 h2 {
+    margin: 0.7em 0;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h3 {
     margin: 0;
 }
 
