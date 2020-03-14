@@ -15,8 +15,11 @@ html {
 	box-sizing: inherit;
 }
 
-header {
+g > * {
 	fill: white;
+}
+
+header {
 	display: flex;
 }
 
