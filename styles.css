@@ -2,6 +2,7 @@ html {
 	font-family: 'DM Sans', sans-serif;
 	background-image: url("line.jpg");
 	background-position: center;
+	text-transform: lowercase;
 	margin: 1em 2em;
 	padding-bottom: 2em;
 	box-sizing: border-box;
@@ -48,7 +49,6 @@ a:hover {
 }
 
 body {
-	/* background-color: #f9f9f9; */
 	max-width: 700px;
 	margin: auto;
 }
@@ -58,12 +58,7 @@ ul {
 	list-style: none;
 }
 
-.links {
-	text-transform: lowercase;
-}
-
 footer {
-	text-transform: lowercase;
 	text-align: right;
 	font-size: 0.7rem;
 }
