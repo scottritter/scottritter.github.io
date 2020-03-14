@@ -15,9 +15,23 @@ html {
 	box-sizing: inherit;
 }
 
-svg {
-	width: 100%;
+header {
+	fill: white;
+	display: flex;
+}
+
+header svg {
 	height: auto;
+}
+
+@media (max-width: 500px) {
+	.srlogo {
+		width: 100%;
+	}
+
+	.wdlogo {
+		display: none;
+	}
 }
 
 a {
