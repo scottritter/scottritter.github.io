@@ -4,6 +4,10 @@ html {
     font-family: "EB Garamond", serif;
 }
 
+body {
+    background-color: #eeeee5;
+}
+
 a {
     color: inherit;
     text-decoration: none;
