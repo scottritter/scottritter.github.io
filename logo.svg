@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="350">
-<g font-family="DM Sans" font-weight="bold">
-	<text x="40" y="155" font-size="180">S</text>
-	<text x="180" y="300" font-size="180">R</text>
-	<line stroke="black" stroke-linecap="round" stroke-width="5" x1="25" y1="300" x2="300" y2="32"/>
+<g font-family="DM Sans" font-weight="bold" fill="white" filter="drop-shadow(1px 1px 1px #000)">
+	<text x="40" y="155" font-size="250">s</text>
+	<text x="180" y="300" font-size="250">r</text>
+	<line stroke="white" stroke-linecap="round" stroke-width="5" x1="25" y1="300" x2="300" y2="32"/>
 	<text x="350" y="80" font-size="100">words</text>
 	<text x="350" y="190" font-size="120">+</text>
 	<text x="350" y="300" font-size="100">design</text>
