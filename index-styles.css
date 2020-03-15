@@ -19,11 +19,6 @@ header {
 	display: flex;
 }
 
-/* Eventually chrome will support this */
-line {
-	filter: drop-shadow(1px 1px 1px black);
-}
-
 header svg {
 	height: auto;
 }
