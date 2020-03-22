@@ -27,8 +27,8 @@ section {
 
 section:nth-last-of-type(n+2) {
     border-bottom: 1px solid darkgrey;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 @media (max-width: 1400px) {
@@ -50,9 +50,8 @@ section:nth-last-of-type(n+2) {
 }
 
 h2 {
-    margin: 0.7em 0;
+    margin: 0 0 1em 0;
     text-align: center;
-    font-variant: small-caps;
     color: rgb(189, 10, 40);
 }
 
@@ -68,8 +67,12 @@ h4 {
 
 blockquote {
     border-left: 0.25em solid rgb(189, 10, 40);
-    margin: 0;
+    margin: 2em 0;
     padding: 0 2em;
+}
+
+blockquote p {
+    text-indent: 0;
 }
 
 article div {
@@ -79,6 +82,7 @@ article div {
 p {
     text-indent: 0.7em;
     margin: 0;
+    hyphens: auto;
 }
 
 article > p:last-of-type {
@@ -86,6 +90,14 @@ article > p:last-of-type {
     margin-bottom: 2em;
 }
 
+article:last-of-type > p:last-of-type {
+    margin-bottom: 0;
+}
+
 article div p {
     text-indent: 0;
+}
+
+.center {
+    text-align: center;
 }
