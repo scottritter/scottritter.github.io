@@ -1,0 +1,24 @@
+.pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pages a {
+    transition: background-size 0.25s;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    box-shadow: 2px 2px 15px grey;
+    margin: 5vh 3vw;
+    width: 400px;
+}
+
+.pages a::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.pages a:hover {
+    background-size: 100%;
+}
