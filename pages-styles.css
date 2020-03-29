@@ -30,7 +30,8 @@ body > a:before {
 .pages a {
     transition: background-size 0.25s;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 200%;
+    background-position: center;
     box-shadow: 2px 2px 15px grey;
     margin: 5vh 3vw;
     width: 400px;
