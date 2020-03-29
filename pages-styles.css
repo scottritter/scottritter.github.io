@@ -28,7 +28,7 @@ body > a:before {
 }
 
 .pages a {
-    transition: background-size 0.25s;
+    transition: background-size 0.5s;
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: center;
