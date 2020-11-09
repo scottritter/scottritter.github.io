@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>State of Connecticut, Department of Environmental Protection (compiler, editor, and publisher)</origin>
+				<pubdate>2011</pubdate>
+				<title>2000 COASTAL PHOTO INDEX TILES</title>
+				<edition>2011</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Hartford, Connecticut, USA</pubplace>
+					<publish>State of Connecticut, Department of Environmental Protection</publish>
+				</pubinfo>
+				<othercit>Connecticut 2000 Coastal Aerial Photography Tile Index references a set of digital color infrared imagery collected and compiled during the 2000 Connecticut Coastal Color Infrared Aerial Photography Project flight for the State of Connecticut Department of Environmental Protection.</othercit>
+				<lworkcit>
+					<citeinfo>
+						<origin>AeroMetric, Inc. (data compiler)</origin>
+						<origin>The State of Connecticut Department of Environmental Protection is maintainer and producer (publisher) of this data for use.</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>2000 Connecticut Coastal Photography Project</title>
+						<edition>2000</edition>
+						<othercit>Contract deliverables included 9" by 9" hardcopy black &amp; white photo prints, 9" by 9" original color infrared film transparencies for stereoscopic viewing, &amp; hardcopy photo indexes.   Data is not available for public dissimination due to license restrictions, but can be viewed at the State of Connecticut, Department of Environmental Protection.</othercit>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</ftname><onlink>http://magic.lib.uconn.edu/magic_2/vector/37800/apirindex_37800_0000_2000_s12_CTDEP_1_shp.zip</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Connecticut 2000 Coastal Aerial Photography Tile Index is a polygon feature class that defines the approximate extent of the geographic area covered by each Connecticut 2000 Coastal Photograph. The 2000 Coastal Photography data for Connecticut is comprised of 959 non-georeferenced 1:12,000 scale 9" by 9" vertical color infrared aerial images. The extent of all the polygons comprise a project area described by: * all land areas within one-thousand (1000) feet of Mean High Water (MHW) and within one-thousand (1000) feet of state-regulated tidal wetlands; * an area of at least two-thousand (2000) feet waterward of the immediate shoreline of Long Island Sound; * all offshore islands within the territorial borders of the State of Connecticut including Goose Island and Falkner Island (offshore of Branford); Calf Islands and Great Captain Island (offshore of Greenwich); Norwalk Islands (offshore of Norwalk); Thimble Islands (offshore of Branford); Sandy Point (offshore of Stonington); and all islands in the Connecticut part of Fishers Island Sound; and * the main stem of the Connecticut River up to the Massachusetts State line. The Connecticut 2000 Coastal Aerial Photography Tile Index is organized in a non-regular grid pattern that reflects the orientation of the flight lines used to photograph the project area. The tiles have an approximate sidelap (overlap between tiles in adjacent flightlines) of 30% and an approximate endlap (overlap between adjacent tiles within a flightline) of 60% in order to achieve well defined stereo pairs. Each feature is identified by a unique PHOTONAME value, to match the filename of the corresponding digital photo image as well as a PHOTO_NO value to match the hardcopy prints and transparencies maintined by the State of Connecticut Department of Environmantal Protection. In addition, each polygon feature also contains the unique flight line, film roll, photo exposure numbers, and date recorded on the original film transparency and hardcopy print as well as basic information on the flight including the year, photography type, tide control, vegetation state, scale, etc.</abstract>
+			<purpose>These data serve as a polygon index to the set of 2000 Coastal Aerial Photographs for Connecticut.  They cartographically descibe the location and orientation of the photographs and also serve as a way to access digital versions (scanned images) of the original hardcopy transparencies and/or prints.
+
+While the index provides scaling information for the hardcopy photos and digital images, care should be taken when using these to measure distances or calculate areas.  Any measurements should be considered approximate as the photography has not been corrected to account for the physical characterisitcs of the flight or the ground topography.</purpose>
+			<supplinf>While the polygon index is referenced to the CT State Plane Coordinate System (NAD83); the associated digital versions of the Connecticut 2000 Coastal Aerial Photography is neither orthorectified nor georeferenced to any real-world coordinate sytem.
+
+To maximize the quality of the images and their contents, photography was specified to conform to the following environmental conditions: 
+* photos were only taken during times of no/minimal cloud cover when lighting and weather conditions optimized the color infrared film; 
+* solar altitude was more than thirty (30) degrees; 
+* the ground detail was not obscured by flooding; 
+* the foliage (salt marsh vegetation in particular) was fully developed; 
+* seasonal conditions (summer) favored maximum human use/recreation activities (e.g., boats &amp; temporary docks/structures in water, etc.); and 
+* no photography was flown between the hours 1100 and 1300 Eastern Standard Time (EST) to minimize specular reflection.
+
+There was no tide control used with this flight.
+
+The photos exist as 1:12,000 vertical color infrared images.  Color infrared photography, often called false color photography because it renders the scene in other than the normal colors seen by the human eye, is widely used for interpretation of natural resources.  Atmospheric haze does not interfere with the acquisition of the image, therefore is well suited to aerial photography.  Because the film is high speed and subject to degrees of degradation in handling before exposure, the aerial photographs can vary in overall tone.  This variability can complicate the interpretation of color tones between photographs, but some general guidelines can be given to aid the inexperienced interpreter. 
+
+* The red tone of color infrared aerial photographs is almost always associated with live vegetation. Very intense reds indicate vegetation which is growing vigorously and is quite dense.  Knowledge of the vigor and density of vegetation is important to the interpretation of the red colors on color infrared aerial photography. 
+
+* As the vigor and density of vegetation decreases, the tones may change to light reds and pinks. If plant density becomes low enough the faint reds may be overcome by the tones of the soils on which the plants are growing. The ground areas in this case will appear in shades of white, blue, or green depending on the kind of soil and its moisture content. As plant vigor decreases, the vegetation will show as lighter shades of red and pink, various shades of greens, and possible tans.  Dead vegetation will often be shades of greens or tans. 
+
+* Bare soils will appear as shades of white, blue, or green in most agricultural regions.  In general, the more moist the soil the darker the shade of that particular soil color. Composition of the soil will affect the color tones shown on the photographs.  Dry sand will appear white and, with more moisture, may be very light gray or possibly light tan.  Clayey soils will generally be darker in color than sands and tend toward tans and bluegreens.  Again, wetter clays will be darker shades of the same tones.  Soils high in organic matter, like silts and loams will be even darker in color, and usually in shades of blues and greens.  Wet organic soils can be very dark blue or green in the aerial photographs. 
+
+* Man-made features will show in the tones that relate to the materials they are made of.  Asphalt roads, for example, will be dark blue or black, gravel or dirt roads will show as lighter colors, depending on the soil materials involved in their composition, and concrete roads will appear light in tone, assuming clean concrete.  The buildings and streets of towns can be considered in a similar manner, their color dependent on the material they are made of. 
+
+* Water will appear as shades of blue, varying from nearly black to very pale blue.  Clear, clean water will appear nearly black.  As the amount of sediment increases, the color becomes increasingly lighter blue.  Very shallow water will often appear as the material present in the bottom of the stream.  For example, a very shallow stream with a sandy bottom will appear white due to the high level of reflection of the sand. 
+
+* Degraded film will result in photographs which have an overall blue or green cast.  When that occurs, the interpretation must consider what that overall cast will do to a "normal" rendition of the scene. 
+
+(Description and guidelines for color infrared photography taken from the United States Geological Survey Aerial Photo FAQ web page, http://edc.usgs.gov/guides/news/aerialfaq.htmlt#A10)</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>8/8/2000</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>9/6/2000</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>9/7/2000</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>9/8/2000</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>9/22/2000</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-73.694266</westbc>
+				<eastbc Sync="TRUE">-71.792257</eastbc>
+				<northbc Sync="TRUE">42.054143</northbc>
+				<southbc Sync="TRUE">40.953703</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-73.694266</leftbc><rightbc Sync="TRUE">-71.792257</rightbc><bottombc Sync="TRUE">40.953703</bottombc><topbc Sync="TRUE">42.054143</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+			</theme>
+			<place>
+				<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of The United States, and Associated Areas (Federal Information Processing Standard 5-2):  Washington, DC, National Institute of Standards and Technology.</placekt>
+				<placekey>Connecticut</placekey>
+				<placekey>CT</placekey>
+			</place>
+		</keywords>
+		<accconst>None. No restrictions or legal prerequisites for accessing the data. The data is in the public domain and may be redistributed.
+
+NOTE:  while this index is freely avialble, the associated imagery products are subject to licensing restriction and cannot be accessed via digital means.  They can be viewed for free at the State of Connecticut, Department of Environmental Protection.</accconst>
+		<useconst>There are no restrictions or legal prerequisites for using the data after access is granted. The data is suitable for use at appropriate scale, and is not intended for maps printed at scales greater or more detailed than 1:12,000 scale (1 inch = 1,000 feet). Although this data set has been used by the State of Connecticut, Department of Environmental Protection, no warranty, expressed or implied, is made by the State of Connecticut, Department of Environmental Protection as to the accuracy of the data and or related materials.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the State of Connecticut, Department of Environmental Protection in the use of these data or related materials. The user assumes the entire risk related to the use of these data. Once the data is distributed to the user, modifications made to the data by the user should be noted in the metadata. When printing this data on a map or using it in a software application, analysis, or report, please acknowledge the State of Connecticut, Department of Environmental Protection as the source for this information.  While the index provides scaling information for the hardcopy photos and digital images, care should be taken when using these to measure distances or calculate areas.  Any measurements should be considered approximate as the photography has not been corrected to account for the physical characterisitcs of the flight or the ground topography.
+
+NOTE:  while this index is freely availble, the associated imagery products are subject to licensing restriction and cannot be freely used by the public.  They can be viewed for free at the State of Connecticut, Department of Environmental Protection.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Environmental Protection</cntorg>
+					<cntper>Kevin O'Brien</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>79 Elm Street</address>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3034</cntvoice>
+				<cntfax>860-424-4054</cntfax>
+				<cntemail>dep.gisdata@po.state.ct.us</cntemail>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>1. AeroMetric, Inc. was contracted by the State of Connecticut to provide the Connecticut 2000 Coastal Aerial Photography in conjunction with a larger statewide mapping effort..
+2. Scanning of the photographic transparencies into digital images was co-ordinated by Joseph Merrit Co.
+3. The photographic index was created by the University of Connecticut Map and Geographic Information Center and the State of Connecticut Department of Environmental Protection.</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>None</secclass>
+			<sechandl>No restrictions for handling the data.</sechandl>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The Connecticut 2000 Coastal Aerial Photography Tile Index layer retains the feature types and information identified by the State of Connecticut, Department of Environmental Protection and obtained from the flight specifcations . All attributes have valid values. Values are within defined domains.  The Connecticut 2000 Coastal Aerial Photography Tile Index features were manually and automatically selected and populated with attributes values to (uniquely) identify and describe individual features.  Accuracy checks involved visually inspecting the correlation between the Connecticut 2000 Coastal Aerial Photography Tile Index polygon features and their corresponding photographs with basemap imagery for the State of Connecticut to ensure the non-georeferenced photos were located and oriented to the ground features.</attraccr>
+		</attracc>
+		<logic>Polygon features conform to the following topological rules. Polygons are single part. There are no duplicate polygons. Polygons do not self overlap, although adjacent polygons do overlap.  Overlap was defined by flight specifications and corresponds to approximately 30% sidelap (overlap between tiles in adjacent flightlines) and 60% endlap (overlap between adjacent tiles within a flightline.)
+
+Establishment of logical consistency was performed by the State of Connecticut, Department of Environmental Protection using ESRI ArcGIS software to manually create and control feature topology in GEODATABASE format. No automated procedures or tests were performed to guarantee desired topology other than visual inspection.</logic>
+		<complete>The completeness of the data reflects the content of the data source, which is the State of Connecticut Department of Environmental Protection 2000 Coastal Aerial Photography.  The Connecticut 2000 Coastal Aerial Photography Tile Index is complete in the sense that it accurately reflects the number, extent, and location of the photos available at the time the State of Connecticut, Department of Environmental Protection created the layer. This data is not updated.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy of this data is unknown.
+
+Polygon features are approximate (alternate) representations for large area objects or observations having well-defined, visible, recoverable, or permanent boundaries or demarcations.
+ 
+Polygon features are accurately positioned for these locations because objects were easily identifiable on aerial photos.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+				<typesrc>disc</typesrc>
+				<srccitea>Source 1 - Ortho_2004_Imagery</srccitea>
+				<srccontr>Basemap reference to identify and align 2000 photo images.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+				<typesrc>disc</typesrc>
+				<srccitea>Source 2 - Photo_index_2000Coastal_point</srccitea>
+				<srccontr>A previously created point based layer used to identify the approximate location for the 2000 Coastal Photography Tile Index features on maps or with other GIS data layers.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+				<typesrc>disc</typesrc>
+				<srccitea>Source 3 - Photo_2000Coastal_Imagery</srccitea>
+				<srccontr>The scanned imagery of the 2000 Coastal Photography flight films used to create and orient the corresponding image tile index feature.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srcscale>24000</srcscale>
+				<typesrc>disc</typesrc>
+				<srccitea>Source 4 - Photo_index_2000Coastal_tile</srccitea>
+				<srccontr>Photo_index_2000Coastal_tile is in GeoDatabase Feature Class format</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Georeferencing followed by Feature digitizing, placement, and attribution (heads up digitizing method) - 
+
+Using ESRI ArcGIS software, the coordinate system for an ArcMap data frame was set to the Connecticut State Plane Coordinate System NAD 83, with map units in feet.  As a reference layer, Source 1, (Connecticut 2004 Orthophoto Basemap) was added to the data frame. The map scale for the reference layer is 1:12,000, making it the most accurate reference layer available at the time of georeferencing.
+
+A representative photo from Source 3, (Connecticut 2000 Coastal Imagery) was then added to the data frame and manually georeferenced by adding 3 to 4 control points that linked known positions on the data source to known positions (in map coordinates) on the reference layer (Connecticut 2004 Orthophoto Basemap). Control points were added by first clicking a known location on the source map (e.g. road intersection) and then clicking on the same location on the reference layer (Connecticut 2004 Orthophoto Basemap). The selection of control points is a subjective process that greatly affects the transformation process. The Root Mean Square (RMS) error generated by the ArcGIS software indicated the amount of error involved in transforming the control point coordinates and quality of the georeferencing process. Efforts to keep the overall RMS error to a minimum were employed, typically involving selecting different control point locations to georeference the source data  when bad feature fit or systematic shifts indicated by poor transformation were observed.  RMS error values were not retained.  Transformations involved first order polynomial operations only.
+
+With a correctly georeferenced data source, the orientation and extent of the representative photo from Source 3, (Connecticut 2000 Coastal Imagery)  was hand-digitized in the Source 4, (Connecticut 2000 Coastal Photography Tile Index) geodatabase polygon feature class by zooming into the corners place vertices that would to as accurately as possible replicate the geometry of the georeferenced image as a polygon.
+
+This representative polygon tile was then copied, placed, and oriented for the other 958 2000 photo locations described in Source 2 (Connecticut 2000 Coastal Photography Index Points.)  Approximate placements for the tiles were driven by the index point locations, and visual inspections of the features found on the 1995 photo and the 2004 orthophoto basemap led to refining the tile placement by rotating or shifting it to best fit the visual content and extent of the two images.
+
+Once a polygon tile was correctly placed, features unique to that tile (i.e., flight line, film roll, exposure number, photo number, date, time) were assigned. Feature location and attribute accuracy was visually checked and inspected by symbolizing and labeling features according to attribute value on the computer screen.  Inconsistencies or anomolies were examined and corrected if necessary.  Once all polygons were placed, attributes germane to the entire flight were added (i.e., photo year, tide control status, scale, ground resolution, data compiler/maintainer, etc.) via automated field calculations.  Feature location and attibute accuracy was once again visually checked and inspected by symbolizing and labeling features according to attribute value on the computer screen.  Inconsistencies or anomolies were examined and corrected if necessary.</procdesc>
+				<procdate>2010</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Convert TIFF format images into PDF format to decrease file size.
+PDF Processing Steps:
+Save As:
+-PDF
+-Smallest File Size
+-Compatability: Acrobat 4
+-Downsample: None
+-Quality: High</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Image scanning:
+
+Photo Print to PDF - (performed by UCONN MAGIC for CTDEP) Each individual 9" by 9" image was digitized at 600 DPI in RGB color using a using an Epson Expression 10000XL scanner at the University of Connecticut Libraries Map and Geographic Information Center - MAGIC. Each image was saved as an uncompressed TIFF image, then reviewed in Adobe Photoshop CS4 to conduct a QA/QC on each image to ensure a clean scan without any distortion was preformed. From within Adobe Photoshop CS4, each image was cropped to the original borders of the print aerial photo and then saved as a TIFF.
+
+Photo Transparency to TIFF - (performed by Scan Perfect Co., &amp; Joseph Merritt, Inc., for CTDEP) Scanning will be done in a clean room environment.  Gloves will be worn at all times during the handling of transparencies.  Each 9" X 9" transparency will be scanned (no film intermediaries may be used) as a single image to produce a single file.  These transparencies are archival quality images and may not be scanned using a sheet feeder.  Each transparency will be individually analyzed through a film pre-scan.  The pre-scan histogram will be used to establish the settings from the final scanning parameters:  exposition, contrast and gamma for each color channel.  No batch processing will occur.  The images must be scanned at a resolution of 22 microns (=1,157 dpi) at 24 bit color and saved as uncompressed TIFF files. The scanner shall provide true optical resolution.  Interpolating to a higher resolution from a lower resolution scan shall not be allowed.    Color accuracy is critical and the contractor must identify the procedure used to assure that the scanner preserves the original color.</procdesc>
+				<srcused>varied</srcused>
+				<procdate>varied</procdate>
+				<srcprod>varied</srcprod>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">Y:\Workspaces\Coastal\KOB\AerialIndexingSamples\OLISP_Aerial_indexing.gdb\2000_metadata.xml</srcused><procdate Sync="TRUE">20110623</procdate><proctime Sync="TRUE">15115900</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\depnb100\GIS\Workspaces\Coastal\KOB\AerialIndexingSamples\OLISP_Aerial_indexing.gdb</srcused><procdate Sync="TRUE">20110628</procdate><proctime Sync="TRUE">11490500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20110701</procdate><proctime Sync="TRUE">13205500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">C:\Documents and Settings\mhowser\Desktop\CTDEP_Coastal_indexes_final_v1\Final_v1_shapes\apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</srcused><procdate Sync="TRUE">20110701</procdate><proctime Sync="TRUE">13385600</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">C:\Documents and Settings\mhowser\Desktop\CTDEP_Coastal_indexes_final_v1\Final_v1_shapes\apirindex_37800_0000_2000_s12_CTDEP_1_shp\apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</srcused><procdate Sync="TRUE">20110705</procdate><proctime Sync="TRUE">15431700</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">959</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">959</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84">
+			<enttyp>
+				<enttypl Sync="TRUE">apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</enttypl>
+				<enttypd>Connecticut 2000 Coastal Aerial Photography Tile Index represented as polygon features.</enttypd>
+				<enttypds>State of Connecticut, Department of Environmental Protection</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">959</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PhotoYear</attrlabl>
+				<attrdef>The year the photos were taken in.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoYear</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>ID_no</attrlabl>
+				<attrdef>Numeric field providing a unique identifier for each tile. Generally the same as PHOTO_NO when non-letter values allow.  Can be used to sort tiles.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">ID_no</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Photo_no</attrlabl>
+				<attrdef>Text field providing a unique identifier for each tile represneting either a sequential count of the photos, or a combination of flight line and sequential counts.  Generally the same as ID_NO when non-letter values allow.  Corresponds to the hardcopy designation of the source photo transparency and print.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">Photo_no</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>Roll_no</attrlabl>
+				<attrdef>Identifies the roll of film used for the photo.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">Roll_no</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>FltLine_no</attrlabl>
+				<attrdef>Identifies the flight line associated with the photo.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">FltLine_no</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoDate</attrlabl>
+				<attrdef>Identifies the specific date a photo was taken.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoDate</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoTime</attrlabl>
+				<attrdef>Identifies the time (in EST) a photo was taken, if applicable.  Time values were generally only recorded for the first and last photos in a flightline.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoTime</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoSize</attrlabl>
+				<attrdef>The physical size (length by width) of the hardcopy photo transparency or print.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoSize</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoScale</attrlabl>
+				<attrdef>Scale of the hardcopy photo transparency or print.  Based overall project specification - individual scales may vary due to flight conditions.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoScale</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoColor</attrlabl>
+				<attrdef>Type of film/film processing used to capture the photos.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Color Infrared</edomv>
+					</edom>
+					<edom>
+						<edomv>Black &amp; White</edomv>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">PhotoColor</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoType</attrlabl>
+				<attrdef>Identifies the type of hardcopy photo used to create the archival and general use/working image.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Vertical Aerial Film</edomv>
+						<edomvd>Original aerial photo transparency (1st generation product.)</edomvd>
+					</edom>
+					<edom>
+						<edomv>Vertical Aerial Print</edomv>
+						<edomvd>Aerial photo print derived from the transparency. (2nd generation product.)</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">PhotoType</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth></attr>
+			<attr>
+				<attrlabl>TideCntrl</attrlabl>
+				<attrdef>Indicates if tide control was used and in what manner.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>No</edomv>
+					</edom>
+					<edom>
+						<edomv>Yes - 1 hr. +/- predicted NOAA low tide</edomv>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">TideCntrl</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth></attr>
+			<attr>
+				<attrlabl>Vegetation</attrlabl>
+				<attrdef>Identifies the state of deciduous vegatation at the point of capture.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Leaf on</edomv>
+					</edom>
+					<edom>
+						<edomv>Leaf off</edomv>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">Vegetation</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>Compiler</attrlabl>
+				<attrdef>Entity responsible for compiling the original data (hardcopy photos.)</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">Compiler</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>Maintainer</attrlabl>
+				<attrdef>Entity responsible for maintaining the current data (hardcopy photos and digital data.)</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">Maintainer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>PhotoName</attrlabl>
+				<attrdef>Name of the archival and general use/working images.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">PhotoName</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+			<attr>
+				<attrlabl>ArcIm_DPI</attrlabl>
+				<attrdef>Archived Image Dots Per Inch (DPI):  A measure of the DPI for the archived image.  For vertical aerial film this is derived by dividing 25400 by the scanning resolution in microns (22); for vertical aerial prints this is scan setting used.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">ArcIm_DPI</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>ArcIm_FtPx</attrlabl>
+				<attrdef>Archived Image Feet Per Pixel: A measure of the feet per pixel in the archived image.  Derived by dividing the photo scale by the DPI by the conversion to feet:  12000/1154.54/12</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">ArcIm_FtPx</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>ArcIm_size</attrlabl>
+				<attrdef>Archived Image Size: The size (in inches) of the archived image.  Derived by the Archived Image feet/pixel value, the size of the archived image in pixels, and the feet-to-inch conversion.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">ArcIm_size</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr>
+			<attr>
+				<attrlabl>ArcIm_scal</attrlabl>
+				<attrdef>Archived Image Scale:  The scale of the archived image. Derived by scaling the original hardcopy photo scale and size with the Archived Image size:  (Photo Scale * Photo Size)/Archived Image Size</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">ArcIm_scal</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr>
+			<attr>
+				<attrlabl>WrkIm_size</attrlabl>
+				<attrdef>Working Image Size:  Size of the general use/working image.  Can vary - consult image view for specific image properties.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">WrkIm_size</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>WrkIm_scal</attrlabl>
+				<attrdef>Working Image Scale:  The scale of the general use working image defined by:  (Archived Image Size * Archived Image Scale)/Working Image Size.</attrdef>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attalias Sync="TRUE">WrkIm_scal</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr><attrlabl Sync="TRUE">TIF_LINK</attrlabl><attalias Sync="TRUE">TIF_LINK</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr>
+				<attrlabl>PDF_Link</attrlabl>
+				<attrdef>Link to University of Connecticut Map and Geographic Information Center PDF image.</attrdef>
+				<attrdefs>University of Connecticut Map and Geographic Information Center</attrdefs>
+				<attalias Sync="TRUE">PDF_Link</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Enviromental Protection</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>79 Elm Street</address>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3034</cntvoice>
+				<cntfax>860-424-4054</cntfax>
+				<cntemail>dep.gisdata@po.state.ct.us</cntemail>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Connecticut 2000 Coastal Aerial Photography Tile Index</resdesc>
+		<distliab>Although this data set  has been used by the State of Connecticut, Department of Environmental Protection, no warranty, expressed or implied, is made by the State of Connecticut, Department of Environmental Protection as to the accuracy of the data and or related materials.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the State of Connecticut, Department of Environmental Protection in the use of these data or related materials. The user assumes the entire risk related to the use of these data. Once the data is distributed to the user, modifications made to the data by the user should be noted in the metadata.
+
+NOTE:  while this index is freely avialble, the associated imagery products are subject to licensing restriction and are not freely distributable.  They can be viewed for free at the State of Connecticut, Department of Environmental Protection.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ZIP</formname>
+					<formvern>ArcGIS 9</formvern>
+					<filedec>Zip file</filedec>
+					<transize>0.057</transize>
+					<dssize Sync="TRUE">0.124</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ct.gov/dep</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>An online copy of the data may be accessed without charge.</fees>
+		</stdorder>
+		<custom>The data distributor does not provide custom GIS analysis or mapping services. Data is available in a standard format and may be converted to other formats, projections, coordinate systems, or selected for specific geographic regions by the party receiving the data.</custom>
+		<techpreq>Geographic information sytem (GIS), computer-aided drawing or other mapping software is necessary to display, view and access the information.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110701</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Environmental Protection</cntorg>
+					<cntper>Kevin O'Brien</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>79 Elm Street</address>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3034</cntvoice>
+				<cntfax>860-424-4054</cntfax>
+				<cntemail>dep.gisdata@po.state.ct.us</cntemail>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None. No restrictions or legal prerequisites for accessing the metadata.</metac>
+		<metuc>None. No restrictions or legal prerequisites for using the metadata after access is granted.</metuc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>None</metsc>
+			<metshd>No restrictions for handling the metadata.</metshd>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20110701</CreaDate><CreaTime>13205500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110701</SyncDate><SyncTime>13242000</SyncTime><ModDate>20110701</ModDate><ModTime>13242000</ModTime><DataProperties><itemProps><itemName Sync="TRUE">PHOTO_INDEX_2000_COAST_TILE3</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">739254.774157</westBL><eastBL Sync="TRUE">1263013.616401</eastBL><southBL Sync="TRUE">545240.632596</southBL><northBL Sync="TRUE">944859.514131</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">file://\\depnb100\GIS\Workspaces\Coastal\KOB\AerialIndexingSamples\OLISP_Aerial_indexing.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,999999.999996],PARAMETER[&amp;quot;False_Northing&amp;quot;,499999.999998],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-72.75],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.2],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,41.86666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.83333333333334],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2234]]&lt;/WKT&gt;&lt;XOrigin&gt;-119756300&lt;/XOrigin&gt;&lt;YOrigin&gt;-96342500&lt;/YOrigin&gt;&lt;XYScale&gt;3048.0060960121914&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2234&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110628" Time="115233">CopyFeatures Y:\Workspaces\Coastal\KOB\AerialIndexingSamples\toMagic\OLISP_Aerial_Indexing_Production_MAGIC_93.mdb\Final_v1\PHOTO_INDEX_2000_COAST_TILE_v1 Y:\Workspaces\Coastal\KOB\AerialIndexingSamples\toMagic\Final_v1_shapes\PHOTO_INDEX_2000_COAST_TILE_v1.shp # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20110701" Time="132055">Project "C:\Documents and Settings\mhowser\Desktop\CTDEP_Coastal_indexes_final_v1\Final_v1_shapes\apirindex_37800_0000_2000_s12_CTDEP_1_shp_nad83_feet.shp" "C:\Documents and Settings\mhowser\Desktop\CTDEP_Coastal_indexes_final_v1\Final_v1_shapes\apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84.shp" GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1983_To_WGS_1984_5 PROJCS['NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',999999.999996],PARAMETER['False_Northing',499999.999998],PARAMETER['Central_Meridian',-72.75],PARAMETER['Standard_Parallel_1',41.2],PARAMETER['Standard_Parallel_2',41.86666666666667],PARAMETER['Latitude_Of_Origin',40.83333333333334],UNIT['Foot_US',0.3048006096012192]]</Process></lineage></DataProperties><MetaID>{59B40FBC-C9F1-40D6-8B2F-2EC63111C083}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en" country="US"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</resTitle><presForm><PresFormCd value="005"></PresFormCd></presForm></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="search"><westBL Sync="TRUE">-73.710011</westBL><eastBL Sync="TRUE">-71.781638</eastBL><northBL Sync="TRUE">42.054205</northBL><southBL Sync="TRUE">40.953521</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-73.694266</westBL><eastBL Sync="TRUE">-71.792257</eastBL><northBL Sync="TRUE">42.054143</northBL><southBL Sync="TRUE">40.953703</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-73.694266</westBL><eastBL Sync="TRUE">-71.792257</eastBL><northBL Sync="TRUE">42.054143</northBL><southBL Sync="TRUE">40.953703</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys><spatRpType><SpatRepTypCd value="001"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\RIS-MHOWSER\C$\Documents and Settings\mhowser\Desktop\CTDEP_Coastal_indexes_final_v1\Final_v1_shapes\apirindex_37800_0000_2000_s12_CTDEP_1_shp\WGS84\apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.124</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="2234">GCS_WGS_1984</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="apirindex_37800_0000_2000_s12_CTDEP_1_shp_wgs84"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">959</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20110701</mdDateSt></metadata>
