@@ -30,11 +30,11 @@ body > a:before {
 .pages a {
     transition: background-size 0.5s;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 100%;
     background-position: center;
     box-shadow: 2px 2px 15px grey;
     margin: 5vh 3vw;
-    width: 400px;
+    width: 300px;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
