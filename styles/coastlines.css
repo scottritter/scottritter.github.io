@@ -1,0 +1,9 @@
+body > div {
+    max-width: 50rem;
+    margin: auto;
+}
+
+body > div > img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
