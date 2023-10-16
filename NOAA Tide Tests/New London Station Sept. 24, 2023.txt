@@ -1,0 +1,2 @@
+New London Station Sept. 24, 2023 to Jan.1, 2024
+https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20230924&end_date=20240101&station=8461490&product=predictions&datum=MLLW&time_zone=lst_ldt&interval=hilo&units=english&application=DataAPI_Sample&format=json
