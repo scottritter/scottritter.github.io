@@ -8,17 +8,26 @@ body {
     background-color: #eeeee5;
 }
 
-a {
+nav a {
     color: inherit;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
-a:before {
+nav a:before {
     content: '← ';
+}
+
+header {
+    text-transform: lowercase;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
 }
 
 section:nth-last-of-type(n+2) {
@@ -34,13 +43,7 @@ article:nth-last-of-type(n+2) {
 }
 
 article {
-    columns: 4;
-}
-
-@media (max-width: 1400px) {
-    article {
-        columns: 3;
-    }
+    columns: 3;
 }
 
 @media (max-width: 1100px) {
@@ -59,6 +62,7 @@ h2 {
     margin: 0 0 1em 0;
     text-align: center;
     color: rgb(189, 10, 40);
+    text-transform: uppercase;
 }
 
 h3 {
@@ -71,25 +75,13 @@ h4 {
     font-variant: small-caps;
 }
 
-blockquote {
-    border-left: 0.25em solid rgb(189, 10, 40);
-    margin: 2em 0;
-    padding: 0 2em;
-    font-style: italic;
-}
-
-blockquote p {
-    text-indent: 0;
-}
-
 article div {
     break-inside: avoid;
 }
 
-p {
+article p {
     text-indent: 0.7em;
     margin: 0;
-    hyphens: auto;
 }
 
 article > p:last-of-type {
@@ -105,7 +97,18 @@ article div p {
     text-indent: 0;
 }
 
-.center {
+article blockquote {
+    border-left: 0.25em solid rgb(189, 10, 40);
+    margin: 1em 0;
+    padding: 0 1em;
+    font-style: italic;
+}
+
+article blockquote p {
+    text-indent: 0;
+}
+
+.center-dots {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 5px;

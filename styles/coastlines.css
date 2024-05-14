@@ -1,9 +1,12 @@
-body > div {
+main {
     max-width: 50rem;
     margin: auto;
 }
 
-body > div > img {
+main img {
     width: 100%;
-    margin-bottom: 1rem;
+}
+
+main img + img {
+    margin-block-start: 1rem;
 }
